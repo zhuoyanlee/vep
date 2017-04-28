@@ -222,12 +222,11 @@ header .header-content {
   text-align: center;
   padding: 20px 15px 20px;
   width: 100%;
-    -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/nav.jpg');*/
 }
 
 header .header-content .header-content-inner h1 {
