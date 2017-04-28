@@ -54,12 +54,7 @@ p {
   background-color: #b3b3b3;
   color:black;
 
-  background: white; /* For browsers that do not support gradients */
-
-  background: -webkit-linear-gradient(#ffffff, #cccccc); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( #ffffff, #cccccc); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ffffff, #cccccc); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ffffff, #cccccc); /* Standard syntax */
+  background: white;
 }
 
 .bg-contact {
@@ -70,12 +65,7 @@ p {
 
 .bg-information {
   background-color: #b3b3b3;
-  background: white; /* For browsers that do not support gradients */
-
-  background: -webkit-linear-gradient(#ffffff, #cccccc); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( #ffffff, #cccccc); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ffffff, #cccccc); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ffffff, #cccccc); /* Standard syntax */
+  background: white;
 }
 
 .bg-information container {
@@ -131,7 +121,6 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
   margin-top: -53px;
-  margin-left: 30px;
 }
 
 .navbar-default .navbar-header .navbar-brand img {
@@ -222,12 +211,11 @@ header .header-content {
   text-align: center;
   padding: 20px 15px 20px;
   width: 100%;
-    -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/nav.jpg');*/
 }
 
 header .header-content .header-content-inner h1 {
@@ -287,7 +275,6 @@ header .header-content .header-content-inner p {
   -o-background-size: cover;
   background-position: 100% center-bottom;
   background-image: url('../img/newsfeed2.jpg');
-  text-align: center;
   color: white;
 }
 
@@ -295,12 +282,13 @@ header .header-content .header-content-inner p {
 	background-color: #1658a5;
 	color:white;
 	text-align: left;
-	padding: 10px;
+  text-transform: uppercase;
 }
 
 .subheader h2 {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 700;
+  margin: 10px 0 10px 0;
 }
 
 .timeline {
