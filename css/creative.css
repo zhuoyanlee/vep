@@ -293,12 +293,12 @@ header .header-content .header-content-inner p {
 .subheader {
 	background-color: #1658a5;
 	color:white;
-	text-align: center;
+	text-align: left;
 	padding: 10px;
 }
 
 .subheader h2 {
-	font-family: roboto, 'open sans', arial;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 }
 
