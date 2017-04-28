@@ -20,6 +20,7 @@
 
       <!-- Theme CSS -->
       <link href="css/creative.css" rel="stylesheet">
+      <link href="css/modalmenu.css" rel="stylesheet">
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,10 +39,30 @@
           </div>
       </header>
 
+      <!-- MODAL MENU -->
+      <div class="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-unstyled text-center">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Resources</a></li>
+                      <li><a href="#">Archives</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
       <nav id="mainNav" class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-menu-modal" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -112,26 +133,27 @@
     		<h2 class="section-heading">Useful Information</h2>
     	</div>
 
-      <section class="bg-information" id="services">
-          <div class="container">
-              <div class="row justify-content-md-center">
-                  <div class="col-lg-4 col-offset-2 col-md-6 text-center">
-                      <div class="service-box">
-                          <i class="fa fa-4x fa-user text-primary sr-icons"></i>
-                          <h3>Veterans</h3>
-                          <p class="text-muted">Information for Veterans</p>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-offset-2 col-md-6 text-center">
-                      <div class="service-box">
-                          <i class="fa fa-4x fa-suitcase text-primary sr-icons"></i>
-                          <h3>Employers</h3>
-                          <p class="text-muted">Information for Employers</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <section class="bg-information" id="services">
+
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-4 col-lg-offset-2 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-user text-primary sr-icons"></i>
+                        <h3>Veterans</h3>
+                        <p class="text-muted">Information for Veterans</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-suitcase text-primary sr-icons"></i>
+                        <h3>Employers</h3>
+                        <p class="text-muted">Information for Employers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
   <div class="footer-bottom">
     	<div class="container">
