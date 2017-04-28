@@ -276,6 +276,23 @@ header .header-content .header-content-inner p {
   background-position: 100% center-bottom;
   background-image: url('../img/newsfeed2.jpg');
   color: white;
+  
+}
+
+.recent-news {
+  margin: 0 0 0 10px;
+}
+
+.news-item {
+  border-top-style: solid;
+}
+.recent-news .news-item .content {
+  font-size: 11px;
+}
+.recent-news .news-item .timestamp {
+  font-size: 11px;
+  color: #bababa;
+  font-style: italic;
 }
 
 .subheader {
