@@ -1,66 +1,149 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <% include ../partials/header.ejs %>
-</head>
+<html lang="en">
+  <head>
+    <% include ../partials/header.ejs %>
+  </head>
 
-<body>
+  <body id="page-top">
+      <header>
+          <div class="header-content">
+            <img src="./img/svg/dva-logo.svg" />
+          </div>
+      </header>
 
-  <% include ../partials/nav.ejs %>
+      <% include ../partials/navbar.ejs %>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Node on Heroku</h1>
-    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+      <section class="newsfeed" id="news">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-md-offset-6">
+              <h1 id="newsHeading">Transfer Between Military and Civilian Life</h1>
+              <p>
+                The Prime Minister's Veterans' Employment Program demonstrates the importance the Government
+                places on raising awareness with employers, both private and public sector, of the value
+                and unique experience of our veterans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--
+    	<div class ="subheader">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+    		        <h2>Recent News</h2>
+            </div>
+          </div>
+        </div>
+    	</div>
+      <section class="bg-primary" id="about">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                      <h2 class="section-heading"></h2>
+                      <hr class="light">
+                      <p class="text-faded"></p>
+                  </div>
+              </div>
+          </div>
+      </section> -->
+
+    	<div class="subheader">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+    		      <h2 class="section-heading"> Veterans' Employment Program</h2>
+            </div>
+          </div>
+        </div>
+    	</div>
+
+      <section class="bg-primary" id="about2">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-4 col-md-offset-3">
+                      <h2 class="section-heading">About the Program</h2>
+                      <hr class="light">
+                      <p class="text-faded">
+              					Members of the Australian Defence Force (ADF) gain an extensive range of skills, abilities,
+                        recognised behaviors and attributes that make them valuable employees in the civilian workforce.
+                        Skills such as problem-solving, leadership, team work and the ability to work in high-pressure environments
+                        are just to name a few. Many former members continue to live by core ADF values such as honesty, honour,
+                        initiative, integrity, respect and loyalty. These attributes are an asset to any employer.
+                      </p>
+            	        <p>
+                        The Prime Minister's Veterans' Employment Program will also work with industry to embed veteran's
+                        employment programs in their recruitment strategies and again raise the enormous potential of former
+                        ADF personnel to the civilian workforce.
+                      </p>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="well well-sm">
+                      <div class="recent-news">
+                        <h4>Recent News</h4>
+                        <div class="news-item">
+                          <h5>From battlefield to the boardroom</h5>
+                          <p class="content">
+                            TRY to imagine for a moment being Ben Roberts-Smith. You're the
+                            embodiment of masculinity - bigger, stronger and taller... <a href="#">Read more</a>
+                          </p>
+                          <p class="timestamp">14th of December, 2016</p>
+                        </div>
+                        <div class="news-item">
+                          <h5>Veteran Employment Bill Passes Senate</h5>
+                          <p class="content">
+                            The bill already passed the House of Representatives in February.
+                            Cook had reintroduced this bipartisan bill earlier this year. ... <a href="#">Read more</a>
+                          </p>
+                          <p class="timestamp">28th of November, 2016</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-md-offset-3">
+                      <h2 class="section-heading">Useful Information</h2>
+                      <div class="col-md-4 col-md-offset-2">
+                        <div class="service-box text-center">
+                            <i class="fa fa-4x fa-user text-primary sr-icons"></i>
+                            <h3>Veterans</h3>
+                            <p class="text-muted">Information for Veterans</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-md-offset-2">
+                        <div class="service-box text-center">
+                            <i class="fa fa-4x fa-suitcase text-primary sr-icons"></i>
+                            <h3>Employers</h3>
+                            <p class="text-muted">Information for Employers</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+  <div class="footer-bottom">
+    	<div class="container-fluid">
+      		<div class="row">
+        			<div class="col-md-3 col-md-offset-2">
+          				<div class="copyright">
+          					© Commonwealth of Australia 2017
+          				</div>
+        			</div>
+        			<div class="col-md-3 col-md-offset-8">
+          				<div class="contact-details">
+              	      <i class="fa fa-phone fa-1x sr-contact"> General Enquiries</i>
+              	      <p>(8am - 5pm, AEST) Mon-Fri</p>
+                      <p>Telephone: 133 254</p>
+              		    <p>Regional Callers: 1800 555 254</p>
+              		    <p>International Callers: 61 2 6289 1133</p>
+                      <i class="fa fa-envelope-o fa-1x sr-contact"> Email</i>
+                      <p><a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
+          				</div>
+        			</div>
+          </div>
+      </div>
   </div>
-</div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
-
-
-</body>
+  </body>
 </html>
