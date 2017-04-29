@@ -99,6 +99,10 @@ aside {
   background-color: #1658a5;
 }
 
+.dva-logo {
+  padding: 10px 5px 10px 5px;
+}
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -797,6 +801,12 @@ body {
 
 .iac-img-sm {
   width: 160px;
+}
+
+.iac-img-lg:hover,
+.iac-img-sm:hover {
+  background: #b8cae0;
+  cursor: pointer;
 }
 
 .iac-details-lg {
