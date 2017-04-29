@@ -276,7 +276,7 @@ header .header-content .header-content-inner p {
   background-position: 100% center-bottom;
   background-image: url('../img/newsfeed2.jpg');
   color: white;
-  
+
 }
 
 .recent-news {
@@ -784,4 +784,51 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.iac-img-lg,
+.iac-img-sm {
+  border: solid 4px #000;
+}
+
+.iac-img-lg {
+  width: 250px;
+}
+
+.iac-img-sm {
+  width: 160px;
+}
+
+.iac-details-lg {
+  margin: 0 0 20px 10px;
+}
+.iac-details-sm {
+  margin: 0 0 15px 5px;
+}
+.iac-details-lg p, .iac-details-sm p {
+  margin: 0;
+}
+.iac-details-lg .name,
+.iac-details-lg .company,
+.iac-details-lg .qualifications{
+  font-size: 14px;
+}
+.iac-details-sm .name,
+.iac-details-sm .company,
+.iac-details-sm .qualifications{
+  font-size: 12px;
+}
+.iac-details-lg .name,
+.iac-details-sm .name {
+  text-transform: uppercase;
+}
+
+.iac-details-lg .company,
+.iac-details-sm .company {
+  color: #bababa;
+}
+
+.iac-details-lg .qualifications,
+.iac-details-sm .qualifications {
+  font-style: italic;
 }
