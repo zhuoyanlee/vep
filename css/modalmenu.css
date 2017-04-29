@@ -1,17 +1,20 @@
-.modal.modal-menu {
+.modal.modal-menu,
+.modal.modal-bio {
     /*! adjust transition time */
     padding: 0 !important;
     transition: all 0.3s ease-out !important;
 }
 
-.modal.modal-menu .modal-dialog {
+.modal.modal-menu .modal-dialog,
+.modal.modal-bio .modal-dialog {
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
-.modal.modal-menu .modal-content {
+.modal.modal-menu .modal-content,
+.modal.modal-bio .modal-content {
     height: 100%;
     border-radius: 0;
     background: #1658a5;
@@ -34,7 +37,8 @@
     text-decoration: none;
 }
 
-.modal.modal-menu.fade .modal-dialog {
+.modal.modal-menu.fade .modal-dialog,
+.modal.modal-bio.fade .modal-dialog {
     /*! disable sliding from left/right/top/bottom */
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
@@ -56,4 +60,25 @@
     text-shadow: none;
     font-weight: normal;
     line-height: 0.6;
+}
+
+.modal.modal-bio .modal-content .modal-body {
+  color: #fff;
+}
+
+
+.modal.modal-bio .modal-content .modal-body .name,
+.modal.modal-bio .modal-content .modal-body .company,
+.modal.modal-bio .modal-content .modal-body .qualifications {
+  margin: 0;
+}
+
+.modal.modal-bio .modal-content .modal-body .name,
+.modal.modal-bio .modal-content .modal-body .company {
+  font-size: 48px;
+}
+.modal.modal-bio .modal-content .modal-body .qualifications {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-style: italic;
 }

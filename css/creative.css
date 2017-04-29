@@ -842,3 +842,9 @@ body {
 .iac-details-sm .qualifications {
   font-style: italic;
 }
+
+.iac-bio-img {
+  width: 250px;
+  border: solid 4px #000;
+  background: #fff;
+}
