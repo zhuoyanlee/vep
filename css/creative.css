@@ -792,7 +792,6 @@ body {
 
 .iac-img-lg,
 .iac-img-sm {
-  border: solid 4px #000;
 }
 
 .iac-img-lg {
@@ -809,6 +808,21 @@ body {
   cursor: pointer;
 }
 
+.iac-details-container-lg {
+  width: 250px;
+  height: 120px;
+  margin-bottom: 10px;
+  background-color: #6d757a;
+  padding-bottom: 1px;
+}
+.iac-details-container-sm {
+  width: 160px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #6d757a;
+  padding-bottom: 1px;
+}
+
 .iac-details-lg {
   margin: 0 0 20px 10px;
 }
@@ -820,27 +834,57 @@ body {
 }
 .iac-details-lg .name,
 .iac-details-lg .company,
-.iac-details-lg .qualifications{
-  font-size: 14px;
-}
+.iac-details-lg .qualifications,
 .iac-details-sm .name,
 .iac-details-sm .company,
-.iac-details-sm .qualifications{
-  font-size: 12px;
+.iac-details-sm .qualifications  {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.iac-details-lg .name,
+.iac-details-lg .company,
+.iac-details-lg .qualifications {
+}
+
+.iac-details-sm .name,
+.iac-details-sm .company,
+.iac-details-sm .qualifications {
+  font-size: 8px;
 }
 .iac-details-lg .name,
 .iac-details-sm .name {
   text-transform: uppercase;
+  font-weight: 400;
 }
-
+.iac-details-lg .name {
+  font-size: 24px;
+}
+.iac-details-sm .name {
+  font-size: 18px;
+}
 .iac-details-lg .company,
 .iac-details-sm .company {
-  color: #bababa;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
-
+.iac-details-lg .company {
+  font-size: 22px;
+}
+.iac-details-sm .company {
+  font-size: 16px;
+}
 .iac-details-lg .qualifications,
 .iac-details-sm .qualifications {
-  font-style: italic;
+}
+
+.iac-details-lg .qualifications {
+  font-size: 14px;
+}
+
+.iac-details-sm .qualifications {
+  font-size: 12px;
 }
 
 .iac-bio-img {
