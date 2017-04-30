@@ -50,6 +50,10 @@ p {
   margin-bottom: 20px;
 }
 
+.logo-banner {
+  padding-top: 60px;
+}
+
 .bg-primary {
   background-color: #b3b3b3;
   color:black;
@@ -291,12 +295,11 @@ header .header-content .header-content-inner p {
   border-top-style: solid;
 }
 .recent-news .news-item .content {
-  font-size: 11px;
+  font-size: 12px;
 }
 .recent-news .news-item .timestamp {
-  font-size: 11px;
-  color: #bababa;
-  font-style: italic;
+  font-size: 12px;
+  color: #ff0000;
 }
 
 .subheader {
@@ -922,5 +925,27 @@ span:hover .hidden-overlay-sm  {
   color: #000;
   background: #fff;
   transition: all 0.7s;
+}
 
+.card-link:hover,
+.card-link:focus {
+  text-decoration: none;
+}
+.card {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 12px 12px 80px 12px;
+  background-color: #1658a5;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card:hover,
+.card:focus {
+  transition: all 0.7s;
+  background-color: #95b4d8;
+}
+.card i {
+  margin-left: 3px;
+  margin-right: 4px;
 }
