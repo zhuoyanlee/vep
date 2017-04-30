@@ -944,3 +944,8 @@ span:hover .hidden-overlay-sm  {
   margin-left: 3px;
   margin-right: 4px;
 }
+
+.align-center {
+  display: table;
+  margin: auto;
+}
