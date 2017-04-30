@@ -603,14 +603,9 @@ header .header-content .header-content-inner p {
 }
 
 
-
-
-
-
-
 .footer-bottom {
     background-color: #1658a5;
-    min-height: 30px;
+    min-height: 50px;
     width: 100%;
 }
 
