@@ -616,25 +616,6 @@ header .header-content .header-content-inner p {
     padding: 7px 0;
 }
 
-.contact-details {
-	font-size: small;
-    color: #fff;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
-    text-align: right;
-}
-
-.contact-details a {
-    color: #fff;
-}
-
-.contact-details p {
-	font-size: 8px;
-  margin: 0;
-  padding: 0;
-}
-
 .text-primary {
   color: #2d3fb3;
 }

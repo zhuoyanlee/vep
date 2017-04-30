@@ -17,6 +17,10 @@ app.get('/about', function(request, response) {
   response.render('pages/about');
 });
 
+app.get('/contact', function(request, response) {
+  response.render('pages/contact');
+});
+
 app.get('/home', function(request, response) {
   response.render('pages/home');
 });
