@@ -315,6 +315,7 @@ header .header-content .header-content-inner p {
   margin: 10px 0 10px 0;
 }
 
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -869,6 +870,18 @@ body {
   width: 250px;
   border: solid 4px #000;
   background: #fff;
+}
+
+.table{
+	color: black;
+	background-color: white;
+	
+}
+
+.table th{
+	font-family: 'Arial', 'Open-Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	
 }
 
 .hidden-overlay-lg,

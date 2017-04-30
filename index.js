@@ -25,6 +25,16 @@ app.get('/home', function(request, response) {
   response.render('pages/home');
 });
 
+app.get('/resources', function(request, response) {
+  response.render('pages/resources');
+});
+
+app.get('/awards', function(request, response) {
+  response.render('pages/awards');
+});
+
+
+
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
