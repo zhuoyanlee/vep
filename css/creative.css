@@ -929,7 +929,7 @@ span:hover .hidden-overlay-sm  {
 .card {
   margin-bottom: 20px;
   margin-top: 10px;
-  padding: 12px 12px 80px 12px;
+  padding: 12px 12px 12px 20px;
   background-color: #1658a5;
   color: #fff;
   border-radius: 5px;
