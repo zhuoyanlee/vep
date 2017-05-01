@@ -659,7 +659,9 @@ body {
 }
 
 .iac-img-lg:hover,
-.iac-img-sm:hover {
+.iac-img-sm:hover,
+.iac-details-container-sm:hover,
+.iac-details-container-lg:hover {
   cursor: pointer;
 }
 
