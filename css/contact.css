@@ -3,8 +3,8 @@
   padding-left: 12px;
   padding-top: 3px;
   padding-bottom: 3px;
-  color: #fff;
-  background-color: #1658a5;
+  color: #000;
+  background-color: #fff;
 }
 .contact-details h6 {
   margin-left: 20px;
@@ -18,49 +18,5 @@
 }
 
 .contact-form .btn {
-  margin-bottom: 20px;
-}
-
-/* Contact Form 2 */
-.contact-form2 {
-  background-color: #fff;
-  padding-top: 10px;
-  padding-right: 0px;
-  /*box-shadow: 0 0 14px 0 #888888;*/
-  border: solid 1px #1658a5;
-}
-.contact-details2 {
-  margin-top: -10px;
-  padding-top: 10px;
-  background-color: #1658a5;
-  color: #fff;
-  padding-bottom: 120px;
-}
-.contact-form2 h5 i {
-  padding: 20px;
-}
-.contact-form2 h3 i {
-  color: #bababa;
-  padding: 30px 30px 60px 30px;
-}
-.contact-details2 h2 {
-  padding-bottom: 20px;
-}
-
-.contact-details2 .block-it {
-  display: inline-grid;
-}
-
-.contact-form2 .location-icon,
-.contact-form2 .phone-icon,
-.contact-form2 .email-icon {
-  font-size: 24px;
-  padding: 10px;
-}
-.contact-details2 a:hover {
-  color: #fff;
-}
-
-.contact-form2 .btn {
   margin-bottom: 20px;
 }
