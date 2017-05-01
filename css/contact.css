@@ -17,31 +17,50 @@
   margin-right: 3px;
 }
 
+.contact-form .btn {
+  margin-bottom: 20px;
+}
+
 /* Contact Form 2 */
 .contact-form2 {
   background-color: #fff;
   padding-top: 10px;
   padding-right: 0px;
-  box-shadow: 0 0 14px 0 #888888;
+  /*box-shadow: 0 0 14px 0 #888888;*/
+  border: solid 1px #1658a5;
 }
 .contact-details2 {
   margin-top: -10px;
   padding-top: 10px;
   background-color: #1658a5;
-  height: 100%;
   color: #fff;
+  padding-bottom: 120px;
+}
+.contact-form2 h5 i {
+  padding: 20px;
+}
+.contact-form2 h3 i {
+  color: #bababa;
+  padding: 30px 30px 60px 30px;
+}
+.contact-details2 h2 {
+  padding-bottom: 20px;
 }
 
-.contact-details2 h3,
-.contact-details2 h4 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 10px;
+.contact-details2 .block-it {
+  display: inline-grid;
 }
-.contact-details2 a {
-  color: #bababa;
-  padding: 10px
+
+.contact-form2 .location-icon,
+.contact-form2 .phone-icon,
+.contact-form2 .email-icon {
+  font-size: 24px;
+  padding: 10px;
 }
 .contact-details2 a:hover {
   color: #fff;
+}
+
+.contact-form2 .btn {
+  margin-bottom: 20px;
 }
