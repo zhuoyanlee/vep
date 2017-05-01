@@ -632,11 +632,6 @@ header .header-content .header-content-inner p {
   background: #222222;
 }
 
-::selection {
-  color: blue;
-  text-shadow: none;
-  background: #222222;
-}
 
 img::selection {
   color: white;
@@ -649,7 +644,6 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #222222;
 }
 
 .iac-img-lg,
