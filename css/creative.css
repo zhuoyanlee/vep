@@ -598,6 +598,9 @@ header .header-content .header-content-inner p {
 
 }
 
+.nav-pills li  a  i.fa {
+  margin-right: 1em;
+}
 dl{
 	padding: 5x 0x 0x 5x;
 }
@@ -608,20 +611,16 @@ dt{
 
 dd{
 	padding: 50x 0x 0x 5x;
-	
+
 }
 
 .tab-subheader {
-	background-color: #1658a5;
-	color:white;
 	text-align: left;
-margin: 10px 0px 20px 0px;
-  padding: 5px 5px 5px 5px;
 }
 
 .tab-content {
   color : black;
-  background-color: #fafafa;
+  background-color: #efefef;
   padding : 5px 15px;
   margin: 0px 0px 20px 0px;
 }
