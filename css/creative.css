@@ -720,6 +720,9 @@ body {
 .iac-details-sm .name {
   font-size: 18px;
 }
+.iac-details-sm .name i {
+  margin-left: 5px;
+}
 .iac-details-lg .company,
 .iac-details-sm .company {
   text-transform: capitalize;
