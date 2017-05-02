@@ -33,6 +33,10 @@ app.get('/awards', function(request, response) {
   response.render('pages/awards');
 });
 
+app.get('/iac', function(request, response){
+	response.render('pages/iac');
+});
+
 
 
 

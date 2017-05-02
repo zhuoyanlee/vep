@@ -863,27 +863,40 @@ span:hover .hidden-overlay-sm  {
 	position: static;
 }
 
+#sidebar{
+	background-color:#ffffff;
+
+}
+
+#sidebar li{
+	color: white;
+}
+
 @media (min-width: 979px) {
   #sidebar.affix-top {
     position: static;
   	margin-top:30px;
   	width:228px;
+
   }
   
   #sidebar.affix-bottom {
     position: relative;
+
   }
 
   #sidebar.affix {
     position: fixed;
     top:70px;
     width:228px;
+
   }
 }
 
 #sidebar li.active {
   	border:0 #eee solid;
   	border-right-width:4px;
+
 }
 
 #sidebar li li.active {
