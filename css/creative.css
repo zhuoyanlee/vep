@@ -132,7 +132,9 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand img {
-  /*border: 3px solid #000;*/
+    border: 2px solid #efefef;
+    background: #1657a5;
+    padding: 5px;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
