@@ -25,7 +25,7 @@
 
 .modal.modal-menu .modal-content .modal-body ul li a {
     display: block;
-    font-size: 32.184px;
+    font-size: 18px;
     border-bottom: 0;
     padding: 8px 0 5px;
     margin: 8px 0;
@@ -91,3 +91,11 @@
   font-style: italic;
   color: #8fbc8f;
 }
+
+.modal.modal-menu .dropdown-menu
+{
+    color: white;
+    background-color: #1658a5;
+
+}
+
