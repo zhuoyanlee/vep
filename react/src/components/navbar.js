@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class NavBar extends React.Component {
 
@@ -8,21 +9,21 @@ export default class NavBar extends React.Component {
     return (
       <div id="navbar">
         <head>
-          <div class="container">
-            <div class="row">
-                <img class="dva-logo pull-right" src="./img/svg/dva-logo.svg" alt="" />
+          <div className="container">
+            <div className="row">
+                <img className="dva-logo pull-right" src="../img/svg/dva-logo.svg" alt="" />
             </div>
           </div>
         </head>
 
-        <div class="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
-          <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                  <div class="modal-header text-center">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <div className="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
+          <div className="modal-dialog modal-lg">
+              <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                   </div>
-                  <div class="modal-body">
-                    <ul class="list-unstyled text-center">
+                  <div className="modal-body">
+                    <ul className="list-unstyled text-center">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/resources">Resources</a></li>
@@ -34,22 +35,22 @@ export default class NavBar extends React.Component {
           </div>
         </div>
 
-        <nav id="mainNav" class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-menu-modal" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+        <nav id="mainNav" className="navbar navbar-default">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-md-6 col-md-offset-3">
+                <div className="navbar-header">
+                  <button type="button" className="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-menu-modal" aria-expanded="false">
+                    <span className="sr-only">Toggle navigation</span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img id="test" src="img/brand.png" alt="" /></a>
+                  <a className="navbar-brand" href="#"><img id="test" src="img/brand.png" alt="" /></a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
+                <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul className="nav navbar-nav navbar-right">
                     <li><a href="/">HOME</a></li>
                     <li><a href="/about">ABOUT</a></li>
                     <li><a href="/resources">RESOURCES</a></li>
