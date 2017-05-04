@@ -92,10 +92,17 @@
   color: #8fbc8f;
 }
 
-.modal.modal-menu .dropdown-menu
+.modal.modal-menu li
 {
+    list-style-type: none;
     color: white;
     background-color: #1658a5;
+    text-align: right;
 
+}
+
+.dropdown-menu
+{
+    
 }
 

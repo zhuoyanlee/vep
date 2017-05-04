@@ -1,10 +1,12 @@
 <head>
+
   <div class="container">
     <div class="row">
         <img class="dva-logo pull-right" src="./img/svg/dva-logo.svg" />
     </div>
   </div>
 </head>
+
 
 <!-- MODAL MENU -->
 <div class="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style="display: none;">
@@ -14,13 +16,14 @@
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
           </div>
           <div class="modal-body">
-            <ul class="list-unstyled text-center">
+            <ul class="list-unstyled text-center" id="accordion">
                 <li><a href="/">Home</a></li>
-				
-		            <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+		          
+                 <li class="panel">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#l1">About
                   <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
+
+                  <ul id="l1" class="collapse">
                     <li><a href="/about">Initiatives</a></li>
                     <li><a href="#">Veterans</a></li>
                     <li><a href="#">Employers</a></li>
@@ -28,6 +31,8 @@
 		                <li><a href="/iac">Industry Advisory Committee</a></li>
                   </ul>
                 </li>
+
+
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/awards">Awards</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -75,4 +80,6 @@
       </div>
     </div>
   </div>
+
+
 </nav>

@@ -11,7 +11,7 @@
   margin-left: 20px;
 }
 .contact-details i {
-  margin-right: 3px;
+  margin-right: 1em;
 }
 .contact-details span {
   font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 .contact-details .head {
-  margin-left: 15px;
+  margin-left: 2em;
 }
 
 .contact-form .btn {
