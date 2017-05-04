@@ -25,7 +25,7 @@
 
 .modal.modal-menu .modal-content .modal-body ul li a {
     display: block;
-    font-size: 18px;
+    font-size: 30px;
     border-bottom: 0;
     padding: 8px 0 5px;
     margin: 12px 0;
@@ -97,8 +97,8 @@
     list-style-type: none;
     color: white;
     background-color: #1658a5;
-    text-align: left;
-    margin: -10px;
+    font-size: 1em;
+    margin: -12px;
 
 }
 
