@@ -1,6 +1,8 @@
 import React from 'react';
 import '../index.css';
+import {Link, IndexLink} from 'react-router';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+
 
 export default class NavBar extends React.Component {
 
@@ -24,11 +26,14 @@ export default class NavBar extends React.Component {
                   </div>
                   <div className="modal-body">
                     <ul className="list-unstyled text-center">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/resources">Resources</a></li>
-                        <li><a href="/awards">Awards</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><IndexLink to="/">Home</IndexLink></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/resources">Resources</Link></li>
+                        <li><Link to="/awards">Awards</Link></li>
+                        <li><Link to ="/contact">Contact</Link></li>
+
+
+
                     </ul>
                   </div>
               </div>
@@ -51,11 +56,11 @@ export default class NavBar extends React.Component {
 
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul className="nav navbar-nav navbar-right">
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/about">ABOUT</a></li>
-                    <li><a href="/resources">RESOURCES</a></li>
-                    <li><a href="/awards">AWARDS</a></li>
-                    <li><a href="/contact">CONTACT</a></li>
+                    <li><IndexLink to="/">HOME</IndexLink></li>
+                    <li><Link to="/about">ABOUT</Link></li>
+                    <li><Link to="/resources">RESOURCES</Link></li>
+                    <li><Link to="/awards">AWARDS</Link></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                   </ul>
                 </div>
               </div>
