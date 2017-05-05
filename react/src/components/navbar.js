@@ -1,8 +1,8 @@
 import React from 'react';
-import '../index.css';
 import {Link, IndexLink} from 'react-router';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-
+import DVALogo from '../image/dva-logo.svg'; 
+import Brand from '../image/brand.png';
 
 export default class NavBar extends React.Component {
 
@@ -10,13 +10,13 @@ export default class NavBar extends React.Component {
     const divStyle = {display:'none'};
     return (
       <div id="navbar">
-        <head>
+        
           <div className="container">
             <div className="row">
-                <img className="dva-logo pull-right" src="../img/svg/dva-logo.svg" alt="" />
+                <img className="dva-logo pull-right" src={DVALogo} alt="" />
             </div>
           </div>
-        </head>
+        
 
         <div className="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
           <div className="modal-dialog modal-lg">
@@ -51,7 +51,7 @@ export default class NavBar extends React.Component {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                   </button>
-                  <a className="navbar-brand" href="#"><img id="test" src="img/brand.png" alt="" /></a>
+                  <a className="navbar-brand" href="#"><img id="test" src={Brand} alt="" /></a>
                 </div>
 
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
