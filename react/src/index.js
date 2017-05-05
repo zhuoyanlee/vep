@@ -9,7 +9,7 @@ import {Route, Router, IndexRoute, hashHistory} from 'react-router';
   import Contact from './components/contact';
 
 
-import './index.css';
+
 
 ReactDOM.render(
   <Router history = {hashHistory}>

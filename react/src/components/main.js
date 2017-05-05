@@ -1,12 +1,14 @@
 import React from 'react';
-import '../index.css';
-import Header from './header';
-import NavBar from './navbar';
-import Footer from './footer';
+import '../vendor/bootstrap/css/bootstrap.min.css';
+import '../vendor/font-awesome/css/font-awesome.min.css';
+import '../vendor/magnific-popup/magnific-popup.css';
+import '../index.css';  
+  import NavBar from './navbar';
+  import Footer from './footer';
+  
 var Main = (props) => {
   return (
-    <div>
-      <Header/>
+    <div>         
       <NavBar/>
       {props.children}
       <Footer/>

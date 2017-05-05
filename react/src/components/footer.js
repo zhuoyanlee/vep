@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+
 import { footer } from 'reactstrap';
 export default class Footer extends React.Component {
 
@@ -20,12 +20,12 @@ export default class Footer extends React.Component {
             </div>
             <div className="container">
               <ul className="footer-links">
-                <li><a href="http://www.dva.gov.au/site-information/disclaimer" target="_blank"><i class="fa fa-external-link-square"></i>Disclaimer</a></li>
-                <li><a href="http://www.dva.gov.au/site-information/privacy" target="_blank"><i class="fa fa-external-link-square"></i>Privacy and Security</a></li>
-                <li><a href="http://www.dva.gov.au/site-information/copyright" target="_blank"><i class="fa fa-external-link-square"></i>Copyright</a></li>
+                <li><a href="http://www.dva.gov.au/site-information/disclaimer" target="_blank"><i className="fa fa-external-link-square"></i>Disclaimer</a></li>
+                <li><a href="http://www.dva.gov.au/site-information/privacy" target="_blank"><i className="fa fa-external-link-square"></i>Privacy and Security</a></li>
+                <li><a href="http://www.dva.gov.au/site-information/copyright" target="_blank"><i className="fa fa-external-link-square"></i>Copyright</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
-              <a href="http://www.dva.gov.au/" target="_blank" className="dva-footer-link pull-right"><i class="fa fa-external-link-square"></i>Department of Veterans' Affairs</a>
+              <a href="http://www.dva.gov.au/" target="_blank" className="dva-footer-link pull-right"><i className="fa fa-external-link-square"></i>Department of Veterans' Affairs</a>
             </div>
          </footer>
 
