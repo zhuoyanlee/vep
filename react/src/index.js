@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Router, IndexRoute, hashHistory} from 'react-router';
+import {Route, Router, browserHistory, IndexRoute} from 'react-router';
   import Main from './components/main';
   import Home from './components/home';
   import About from './components/about';
@@ -12,7 +12,7 @@ import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 
 
 ReactDOM.render(
-  <Router history = {hashHistory}>
+  <Router history = {browserHistory}>
     <Route path = "/" component = {Main}>
     <Route path = "about" component = {About}/>
     <Route path = "resources" component = {Resources}/>
