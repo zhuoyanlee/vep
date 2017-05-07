@@ -21,11 +21,11 @@ ReactDOM.render(
       <NavBar/>
       <NewsFeed/>
         <Switch>
-          <Route path = "/about" component = {About}/>
-          <Route path = "/resources" component = {Resources}/>
-          <Route path = "/awards" component = {Awards}/>
-          <Route path = "/contact" component = {Contact}/>
-          <Route path = "/" component = {Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/resources" component={Resources}/>
+          <Route path="/awards" component={Awards}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/" component={Home}/>
         </Switch>
       <Footer/>
     </div>

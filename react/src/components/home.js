@@ -30,7 +30,7 @@ export default class Home extends React.Component {
                         employment programs in their recruitment strategies and again raise the enormous potential of former
                         ADF personnel to the civilian workforce.
                       </p>
-					  
+
 					  <div className="row">
 								<div className="well well-sm">
 							  <div className="recent-news">
@@ -54,14 +54,14 @@ export default class Home extends React.Component {
 							  </div>
 							</div>
 					  </div>
-					  
-					  
+
+
                   </div>
                   <div className="col-md-2">
-                  
+
                       <div className="row">
 									<div className="col-md-10">
-									  <a href="/resources#veteran" class="card-link">
+									  <a href="/resources#veteran" className="card-link">
 										<div className="card">
 										  <h4><i className="fa fa-user"></i>Veteran</h4>
 										  <h5>Information for Veterans</h5>

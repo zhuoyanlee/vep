@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import DVALogo from '../image/dva-logo.svg';
 import Brand from '../image/brand.png';
 
@@ -18,7 +17,7 @@ export default class NavBar extends React.Component {
           </div>
 
 
-        <div className="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
+        <div className="modal modal-menu fade" id="nav-menu-modal" tabIndex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
           <div className="modal-dialog modal-lg">
               <div className="modal-content">
                   <div className="modal-header text-center">
@@ -30,7 +29,7 @@ export default class NavBar extends React.Component {
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/resources">Resources</Link></li>
                         <li><Link to="/awards">Awards</Link></li>
-                        <li><Link to ="/contact">Contact</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
 
 
 
