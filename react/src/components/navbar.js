@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link, IndexLink} from 'react-router';
+import {Link} from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import DVALogo from '../image/dva-logo.svg'; 
+import DVALogo from '../image/dva-logo.svg';
 import Brand from '../image/brand.png';
 
 export default class NavBar extends React.Component {
@@ -10,13 +10,13 @@ export default class NavBar extends React.Component {
     const divStyle = {display:'none'};
     return (
       <div id="navbar">
-        
+
           <div className="container">
             <div className="row">
                 <img className="dva-logo pull-right" src={DVALogo} alt="" />
             </div>
           </div>
-        
+
 
         <div className="modal modal-menu fade" id="nav-menu-modal" tabindex="-1" role="dialog" aria-labelledby="nav-menu-modal" aria-hidden="true" style={divStyle}>
           <div className="modal-dialog modal-lg">
@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
                   </div>
                   <div className="modal-body">
                     <ul className="list-unstyled text-center">
-                        <li><IndexLink to="/">Home</IndexLink></li>
+                        <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/resources">Resources</Link></li>
                         <li><Link to="/awards">Awards</Link></li>
@@ -56,7 +56,7 @@ export default class NavBar extends React.Component {
 
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul className="nav navbar-nav navbar-right">
-                    <li><IndexLink to="/">HOME</IndexLink></li>
+                    <li><Link to="/">HOME</Link></li>
                     <li><Link to="/about">ABOUT</Link></li>
                     <li><Link to="/resources">RESOURCES</Link></li>
                     <li><Link to="/awards">AWARDS</Link></li>
