@@ -1009,8 +1009,7 @@ span:hover .hidden-overlay-sm  {
     list-style-type: none;
     color: white;
     background-color: #1658a5;
-    font-size: 1em;
-    margin: -12px;
+    text-align: right;
 
 }
 

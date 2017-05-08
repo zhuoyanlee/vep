@@ -13,7 +13,15 @@ import {Route, BrowserRouter, Switch} from 'react-router-dom';
     import './vendor/font-awesome/css/font-awesome.min.css';
     import './vendor/magnific-popup/magnific-popup.css';
     import './index.css';
-
+    // import {jquery} from 'jquery';
+    import 'bootstrap/dist/js/bootstrap';
+    //import './vendor/magnific-popup/jquery.magnific-popup.min.js';
+    //import './vendor/scrollreveal/scrollreveal.min.js';
+    import './js/navbar.js';
+    //import './js/creative.min.js';
+    import './js/navbar2.js';
+    //import './js/sidebar.js';
+    
 ReactDOM.render(
 
   <BrowserRouter>
