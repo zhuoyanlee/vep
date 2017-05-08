@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom';
 import DVALogo from '../image/dva-logo.svg';
 
 export default class NavBar extends React.Component {
-   
+
   render(){
     const divStyle = {display:'none'};
     return (
-   
+
 <div>
   <div className="container">
     <div className="row">
@@ -23,8 +23,8 @@ export default class NavBar extends React.Component {
           </div >
           <div className="modal-body">
             <ul className="list-unstyled text-center" id="accordion">
-                <li><a href="/">Home</a></li>
-		          
+                <li><Link to="/">Home</Link></li>
+
                  <li className="panel">
                   <a data-toggle="collapse" data-parent="#accordion" href="#l1">About
                   <span className="caret"></span></a>
@@ -44,7 +44,7 @@ export default class NavBar extends React.Component {
             </ul>
           </div>
       </div>
-  
+
 </div >
 
 <nav id="mainNav" className="navbar navbar-default">
@@ -64,9 +64,9 @@ export default class NavBar extends React.Component {
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             <li><Link to="/">HOME</Link></li>
-            		
+
 					<li className="dropdown">
-            
+
         <a className="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT
         <span className="caret"></span></a>
         <ul className="dropdown-menu">
@@ -77,7 +77,7 @@ export default class NavBar extends React.Component {
 		  <li><Link to="/iac">Industry Advisory Committee</Link></li>
         </ul>
       </li>
-				
+
             <li><Link to="/resources">RESOURCES</Link></li>
             <li><Link to="/awards">AWARDS</Link></li>
             <li><Link to="/contact">CONTACT</Link></li>
@@ -88,7 +88,7 @@ export default class NavBar extends React.Component {
   </div>
 </nav>
 </div>
-    
+
     );
   }
 }
