@@ -944,6 +944,7 @@ span:hover .hidden-overlay-sm  {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff;
+    text-align: center !important;
 }
 
 .modal.modal-menu .modal-content .modal-body ul li a:hover, .modal.modal-menu .modal-content .modal-body ul li a:focus {
@@ -1010,8 +1011,15 @@ span:hover .hidden-overlay-sm  {
     color: white;
     background-color: #1658a5;
     text-align: right;
-
 }
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important; 
+       
+    }
 
 .dropdown-menu
 {
@@ -1101,3 +1109,11 @@ span:hover .hidden-overlay-sm  {
 .contact-form .btn {
   margin-bottom: 20px;
 }
+
+
+ 
+  
+
+  
+
+   

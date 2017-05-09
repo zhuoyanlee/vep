@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, BrowserRouter, Switch} from 'react-router-dom';
+//Components
   import Home from './components/home';
   import About from './components/about';
   import Resources from './components/resources';
@@ -10,19 +11,25 @@ import {Route, BrowserRouter, Switch} from 'react-router-dom';
   import NewsFeed from './components/newsfeed';
   import Footer from './components/footer';
   import IAC from './components/iac';
+  //CSS
     import './vendor/bootstrap/css/bootstrap.min.css';
     import './vendor/font-awesome/css/font-awesome.min.css';
     import './vendor/magnific-popup/magnific-popup.css';
+    import './vendor/googleFonts/merriWeather.css';
+    import './vendor/googleFonts/openSans.css';
+    import './vendor/googleFonts/oswald.css';
     import './index.css';
-    // import {jquery} from 'jquery';
-    import 'bootstrap/dist/js/bootstrap';
-    //import './vendor/magnific-popup/jquery.magnific-popup.min.js';
-    //import './vendor/scrollreveal/scrollreveal.min.js';
-    import './js/navbar.js';
-    //import './js/creative.min.js';
+  //JavaScript  
+    import 'bootstrap/dist/js/bootstrap';   
+    import './js/navbar.js';    
     import './js/navbar2.js';
-    //import './js/sidebar.js';
-
+   
+//not used
+//import './js/sidebar.js';
+//import './js/creative.min.js'; 
+//import './vendor/magnific-popup/jquery.magnific-popup.min.js';
+//import './vendor/scrollreveal/scrollreveal.min.js';
+// import {jquery} from 'jquery';
 ReactDOM.render(
 
   <BrowserRouter>
