@@ -7,11 +7,10 @@ export default class NavBar extends React.Component {
   close(){
     this.setState({showModal: false});
   }
-  
+
   render(){
-      
+
     const divStyle={display:'none'};
-    const center={textAlign: "center"};
     return (
 
 <div>
@@ -27,7 +26,7 @@ export default class NavBar extends React.Component {
           <div  className="modal-header text-center">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
           </div >
-          <div className="modal-body text-center"style = {center}>
+          <div className="modal-body text-center">
             <ul className="list-unstyled text-center" id="accordion">
                 <li><Link to="/" onClick={this.close}>Home</Link></li>
                  <li className="panel">
