@@ -188,6 +188,11 @@ aside {
   .navbar-default .navbar-header .navbar-brand {
     color: white;
   }
+
+  .navbar-brand{
+    max-height: 65%;
+    max-width: 65%;
+  }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: orange;
