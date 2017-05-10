@@ -1,4 +1,5 @@
 import React from 'react';
+import Scrollspy from 'react-scrollspy'
 export default class IACSticky extends React.Component {
 
   constructor(props) {
@@ -35,7 +36,11 @@ export default class IACSticky extends React.Component {
     return (
 
             <div className="col-md-3 col-md-offset-1" id="leftCol">
-              <ul className={this.state.scrollingLock ? "nav nav-stacked affix" : "nav nav-stacked affix-top"} id="sidebar">
+               
+                       
+            <ul className={this.state.scrollingLock ? "nav nav-stacked affix" : "nav nav-stacked affix-top"} id="sidebar">
+               <Scrollspy className="nav nav-stacked affix nav nav-stacked affix-top" items={ ['sec0', 'sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6'] }  currentClassName="active">
+
                 <li>
                   <a href="#sec0">Aim</a>
                 </li>
@@ -57,7 +62,9 @@ export default class IACSticky extends React.Component {
                 <li>
                   <a href="#sec6">Useful Links</a>
                 </li>
+               </Scrollspy>
               </ul>
+               
             </div>
 
     );

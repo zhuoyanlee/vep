@@ -100,11 +100,9 @@ export default class IAC extends React.Component {
                     <i className="fa fa-envelope"></i>IAC.Secretariat@dva.gov.au</h5>
                 </div>
               </div>
-
               <h3 id="sec7">Useful Links</h3>
               <hr/>
               <div className="col-md-12">
-
                 <div className="row">
                   <div className="col-md-6">
                     <a href="/resources#veteran" className="card-link">
@@ -115,7 +113,6 @@ export default class IAC extends React.Component {
                       </div>
                     </a>
                   </div>
-
                   <div className="col-md-6">
                     <a href="/resources#employer" className="card-link">
                       <div className="card">
@@ -125,10 +122,8 @@ export default class IAC extends React.Component {
                       </div>
                     </a>
                   </div>
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>

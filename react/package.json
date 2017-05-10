@@ -8,13 +8,15 @@
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.5.2",
     "react-addons-transition-group": "^15.5.2",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.0.0",
-    "reactstrap": "^4.5.0"
+    "react-router-dom": "^4.0.0", 
+    "react-scrollspy": "^3.1.1",
+    "reactstrap": "^4.5.0"  
   },
   "devDependencies": {
     "react-scripts": "0.9.5",
