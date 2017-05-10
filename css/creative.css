@@ -190,9 +190,11 @@ aside {
   }
 
   .navbar-brand{
-    max-height: 65%;
-    max-width: 65%;
+    max-height: 75%;
+    max-width: 75%;
   }
+
+
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: orange;
