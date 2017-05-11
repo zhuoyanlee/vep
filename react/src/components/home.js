@@ -62,7 +62,7 @@ export default class Home extends React.Component {
 
                       <div className="row">
 									<div className="col-md-10">
-									  <Link to="/veterans" className="card-link">
+									  <Link to="/veterans" className="card-link" tabIndex="0">
 										<div className="card">
 										  <h4><i className="fa fa-user"></i>Veteran</h4>
 										  <h5>Information for Veterans</h5>
@@ -70,7 +70,7 @@ export default class Home extends React.Component {
 									  </Link>
 									</div>
 									<div className="col-md-10">
-									  <Link to="/employers" className="card-link">
+									  <Link to="/employers" className="card-link" tabIndex="0">
 										<div className="card">
 										  <h4><i className="fa fa-briefcase"></i>Employer</h4>
 										  <h5>Information for Employers</h5>

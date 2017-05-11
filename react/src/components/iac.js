@@ -106,7 +106,7 @@ export default class IAC extends React.Component {
               <div className="col-md-12">
                 <div className="row">
                   <div className="col-md-6">
-                    <Link to="/veterans" className="card-link">
+                    <Link to="/veterans" className="card-link" tabIndex="0">
                       <div className="card">
                         <h4>
                           <i className="fa fa-user"></i>Veteran</h4>
@@ -115,7 +115,7 @@ export default class IAC extends React.Component {
                     </Link>
                   </div>
                   <div className="col-md-6">
-                    <Link to="/employers" className="card-link">
+                    <Link to="/employers" className="card-link" tabIndex="0">
                       <div className="card">
                         <h4>
                           <i className="fa fa-briefcase"></i>Employer</h4>
