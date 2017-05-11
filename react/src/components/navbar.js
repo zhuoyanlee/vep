@@ -35,13 +35,13 @@ export default class NavBar extends React.Component {
 
                   <ul id="l1" className="list-unstyled text-center collapse">
                     <li><Link to="/about"onClick={this.close}>Initiatives</Link></li>
-                    <li><Link to="#"onClick={this.close}>Veterans</Link></li>
-                    <li><Link to="#"onClick={this.close}>Employers</Link></li>
+                    <li><Link to="veterans"onClick={this.close}>Veterans</Link></li>
+                    <li><Link to="/employers"onClick={this.close}>Employers</Link></li>
 		                <li><Link to="#"onClick={this.close}>Ex-Service Organisations</Link></li>
 		                <li><Link to="/iac"onClick={this.close}>Industry Advisory Committee</Link></li>
                   </ul>
                 </li>
-                <li><Link to="/resources"onClick={this.close}>Resources</Link></li>
+                <li><Link to="/veterans"onClick={this.close}>Resources</Link></li>
                 <li><Link to="/awards"onClick={this.close}>Awards</Link></li>
                 <li><Link to="/contact"onClick={this.close}>Contact</Link></li>
             </ul>
@@ -74,14 +74,14 @@ export default class NavBar extends React.Component {
         <span className="caret"></span></a>
         <ul className="dropdown-menu">
           <li><Link to="/about">Initiatives</Link></li>
-          <li><Link to="#">Veterans</Link></li>
-          <li><Link to="#">Employers</Link></li>
+          <li><Link to="veterans">Veterans</Link></li>
+          <li><Link to="employers">Employers</Link></li>
 		      <li><Link to="#">Ex-Service Organisations</Link></li>
 		      <li><Link to="/iac">Industry Advisory Committee</Link></li>
         </ul>
       </li>
 
-            <li><Link to="/resources">RESOURCES</Link></li>
+            <li><Link to="/veterans">RESOURCES</Link></li>
             <li><Link to="/awards">AWARDS</Link></li>
             <li><Link to="/contact">CONTACT</Link></li>
           </ul>

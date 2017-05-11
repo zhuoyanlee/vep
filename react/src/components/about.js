@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutSticky from './aboutSticky.js';
+import {Link} from 'react-router-dom';
 
 export default class About extends React.Component {
 
@@ -115,21 +116,21 @@ export default class About extends React.Component {
                   
                       <div className="row">
 										<div className="col-md-6">			
-									  <a href="/resources#veteran" className="card-link">
+									  <Link to="/veterans" className="card-link">
 										<div className="card">
 										  <h4><i className="fa fa-user"></i>Veteran</h4>
 										  <h5>Information for Veterans</h5>
 										</div>
-									  </a>
+									  </Link>
 										</div>
 									 
 										<div className="col-md-6">	
-									  <a href="/resources#employer" className="card-link">
+									  <Link to="/employers" className="card-link">
 										<div className="card">
 										  <h4><i className="fa fa-briefcase"></i>Employer</h4>
 										  <h5>Information for Employers</h5>
 										</div>
-									  </a>
+									  </Link>
 										</div>                
                       </div>
                   </div>			          	

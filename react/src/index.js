@@ -4,13 +4,14 @@ import {Route, BrowserRouter, Switch} from 'react-router-dom';
 //Components
   import Home from './components/home';
   import About from './components/about';
-  import Resources from './components/resources';
+  import Veterans from './components/veterans';
   import Awards from './components/awards';
   import Contact from './components/contact';
   import NavBar from './components/navbar';
   import NewsFeed from './components/newsfeed';
   import Footer from './components/footer';
   import IAC from './components/iac';
+  import Employers from './components/employers';
   //CSS
     import './vendor/bootstrap/css/bootstrap.min.css';
     import './vendor/font-awesome/css/font-awesome.min.css';
@@ -29,7 +30,7 @@ import {Route, BrowserRouter, Switch} from 'react-router-dom';
 //import './js/creative.min.js'; 
 //import './vendor/magnific-popup/jquery.magnific-popup.min.js';
 //import './vendor/scrollreveal/scrollreveal.min.js';
-// import {jquery} from 'jquery';
+//import {jquery} from 'jquery';
 ReactDOM.render(
 
   <BrowserRouter>
@@ -37,9 +38,10 @@ ReactDOM.render(
       <NavBar/>
       <NewsFeed/>
         <Switch>
+          <Route path="/employers" component={Employers}/>
           <Route path="/about" component={About}/>
           <Route path="/iac" component={IAC}/>
-          <Route path="/resources" component={Resources}/>
+          <Route path="/veterans" component={Veterans}/>
           <Route path="/awards" component={Awards}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/" component={Home}/>
