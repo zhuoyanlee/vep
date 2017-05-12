@@ -1,7 +1,7 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy'
 export default class AboutSticky extends React.Component {
- 
+
   constructor(props) {
       super(props);
       this.state = {
@@ -20,11 +20,11 @@ export default class AboutSticky extends React.Component {
   }
 
   handleScroll() {
-    if (window.scrollY > 500) {
+    if ((window.scrollY || document.documentElement.scrollTop) > 500) {
       this.setState({
         scrollingLock: true
       });
-    } else if (window.scrollY < 500) {
+    } else if ((window.scrollY || document.documentElement.scrollTop) < 500) {
       this.setState({
         scrollingLock: false
       });
@@ -32,11 +32,11 @@ export default class AboutSticky extends React.Component {
 
   }
   render(){
-     
+
     return (
-    
+
     	<div className="col-md-3 col-md-offset-1" id="leftCol">
-              
+
               <ul className={this.state.scrollingLock ? "nav nav-stacked affix" : "nav nav-stacked affix-top"} id="sidebar">
                 <Scrollspy className="nav nav-stacked affix nav nav-stacked affix-top" items={ ['sec0', 'sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6'] }  currentClassName="active">
                   <li><a href="#sec0">Industry Advisory Committee</a></li>
@@ -51,9 +51,9 @@ export default class AboutSticky extends React.Component {
                   </Scrollspy>
               	</ul>
 
-              
-      		</div>  
-      
+
+      		</div>
+
     );
   }
 }

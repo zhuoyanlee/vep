@@ -20,11 +20,11 @@ export default class IACSticky extends React.Component {
   }
 
   handleScroll() {
-    if (window.scrollY > 500) {
+    if ((window.scrollY || document.documentElement.scrollTop) > 500) {
       this.setState({
         scrollingLock: true
       });
-    } else if (window.scrollY < 500) {
+    } else if ((window.scrollY || document.documentElement.scrollTop) < 500) {
       this.setState({
         scrollingLock: false
       });
@@ -36,8 +36,7 @@ export default class IACSticky extends React.Component {
     return (
 
             <div className="col-md-3 col-md-offset-1" id="leftCol">
-               
-                       
+
             <ul className={this.state.scrollingLock ? "nav nav-stacked affix" : "nav nav-stacked affix-top"} id="sidebar">
                <Scrollspy className="nav nav-stacked affix nav nav-stacked affix-top" items={ ['sec0', 'sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6'] }  currentClassName="active">
 
@@ -64,7 +63,7 @@ export default class IACSticky extends React.Component {
                 </li>
                </Scrollspy>
               </ul>
-               
+
             </div>
 
     );
