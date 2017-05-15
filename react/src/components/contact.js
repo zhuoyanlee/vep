@@ -1,6 +1,9 @@
 import React from 'react';
 import {Field, reduxForm} from 'redux-form';
+
 class Contact extends React.Component {
+
+  
 
   renderField(field) {
     const {meta: {touched,error}} = field;
@@ -11,9 +14,9 @@ class Contact extends React.Component {
         <div className={className}>
           <label>{field.label}</label>
           <input className="form-control" {...field.input} type="text" placeholder={field.placeholder}/>
-          <div className="text-danger">
+          <span className="text-danger">
             {touched ? error : ''}
-          </div>
+          </span>
         </div>
       </div>
 
@@ -28,17 +31,25 @@ class Contact extends React.Component {
       <div className="col-md-12">
         <div className={className}>
           <label>{field.label}</label>
-          <textarea className="form-control" {...field.input} type="text" placeholder={field.placeholder}/>
-          <div className="text-danger">
+          <textarea className="form-control" {...field.input} type="text" placeholder={field.placeholder} rows="4"/>
+          <span className="text-danger">
             {touched ? error : ''}
-          </div>
+          </span>
         </div>
       </div>
     );
   }
 
-  onSubmit(values) {
+  onSubmit(values) {   
     console.log(values);
+    //clear input after form submit.
+    values.firstname = ""; 
+    values.lastname = ""; 
+    values.email = ""; 
+    values.phone = ""; 
+    values.feedback = ""; 
+ 
+
   }
 
   render() {
@@ -64,7 +75,6 @@ class Contact extends React.Component {
                     <Field name="lastname" label="Last Name" placeholder="ex. Smith" component={this.renderField}/>
                     <Field name="email" label="Email" placeholder="ex. john.smith@example.com" component={this.renderField}/>
                     <Field name="phone" label="Phone Number" placeholder="ex. 0412 3456 7890" component={this.renderField}/>
-
                     <Field name="feedback" label="Feedback" component={this.renderFeedback}/>
 
                     <div className="col-md-12"></div>
