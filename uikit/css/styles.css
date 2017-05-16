@@ -1,8 +1,69 @@
-.uikit-header {
+.uikit-header.uikit-header--nav {
   background-color: #1f2c5e;
+  padding: 1em;
+  margin: 0;
+}
+
+.uikit-header.newsfeed{
+  background-color: white;
+  color: black;
+}
+
+.uikit-link-list{
+
+color: white;
+
+
+  font-weight: 500;
+  font-size: 22px;
+  color: #222222;
+margin: 0;
+padding: 0em 0em 0em 3em;
+}
+
+
+  .uikit-link-list:hover,
+  .uikit-link-list:focus {
+    color: orange;
+  }
+  
+  .uikit-link-list > li > a,
+  .uikit-link-list > li > a:focus {
+    color: white;
+  }
+  .uikit-link-list > li > a:hover,
+  .uikit-link-list > li > a:focus:hover {
+    color: orange;
+  }
 
 }
 
 ul .uikit-link-list.uikit-link-list--inline {
   color : white!important;
+
+
 }
+
+
+
+.banner {
+  width: 100%;
+  height: auto;
+
+}
+
+.bannercontainer{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #1f2c5e;
+}
+
+
+.footer-bottom {
+    background-color: #1658a5;
+    min-height: 50px;
+    width: 100%;
+}
+
