@@ -13,7 +13,13 @@ app.get('/', function(request, response) {
   response.render('pages/home');
 });
 
+app.get('/home', function(request, response) {
+  response.render('pages/home');
+});
 
+app.get('/awards', function(request, response) {
+  response.render('pages/awards');
+});
 
 
 
