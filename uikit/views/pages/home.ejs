@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <% include ../partials/header.ejs %>
-  </head>
 
-  <body id="page-top">
+<head>
+  <% include ../partials/header.ejs %>
+</head>
 
-    <% include ../partials/navbar.ejs %>
+<body id="page-top">
+
+  <% include ../partials/navbar.ejs %>
 
     <% include ../partials/blurb.ejs %>
+    <main class="uikit-grid no-a11y-test">
+  		<div class="container">
+  			<div class="row col-md-offset-1">
+  				<h2 class="grids col-md-4">Recent news</h2>
+  			</div>
+  			<div class="row">
+  				<div class="grids col-md-4 col-md-offset-1">
+  					<div class="recent-news">
+  						<div class="news-item">
+  							<h4>From battlefield to the boardroom</h4>
+  							<p class="content">TRY to imagine for a moment being Ben Roberts-Smith. You're the embodiment of masculinity - bigger, stronger and taller... <a href="#">Read more</a></p>
+  							<p class="timestamp">14th of December, 2016</p>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="grids col-md-4">
+  					<div class="recent-news">
+  						<div class="news-item">
+  							<h4>Veteran Employment Bill Passes Senate</h4>
+  							<p class="content">The bill already passed the House of Representatives in February. Cook had reintroduced this bipartisan bill earlier this year. ... <a href="#">Read more</a></p>
+  							<p class="timestamp">28th of November, 2016</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</main>
 
-    <% include ../partials/newsfeed.ejs %>
-
-    <% include ../partials/footer.ejs %>
-
-
+      <% include ../partials/newsfeed.ejs %>
+      
+        <% include ../partials/footer.ejs %>
 
 
 
 
 
-  </body>
+
+
+</body>
+
 </html>

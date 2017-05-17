@@ -1,10 +1,41 @@
 
 <nav class="uikit-header uikit-header--light" id="blurb">
 <main class="uikit-grid no-a11y-test">
-
+<div class = "container">
 <div class="grids col-md-offset-1 col-md-8">
-<p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers, both private and public sector, and of the value and unique experience of our veterans. <a href="">Read more</a></p>
+  <p>
+    The Prime Minister's Veterans' Employment Program demonstrates the importance the Government
+    places on raising awareness with employers, both private and public sector, of the value
+    and unique experience of our veterans. <a id = "moreinfo" href =#about2>Read more</a>
+  </p>
+  <div style = "display:none" id = "about2">
+  <p>
+    Members of the Australian Defence Force (ADF) gain an extensive range of skills, abilities,
+    recognised behaviors and attributes that make them valuable employees in the civilian workforce.
+    Skills such as problem-solving, leadership, team work and the ability to work in high-pressure environments
+    are just to name a few. Many former members continue to live by core ADF values such as honesty, honour,
+    initiative, integrity, respect and loyalty. These attributes are an asset to any employer.
+  </p>
+  <p>
+    The Prime Minister's Veterans' Employment Program will also work with industry to embed veteran's
+    employment programs in their recruitment strategies and again raise the enormous potential of former
+    ADF personnel to the civilian workforce.
+  </p>
+</div>
+</div>
 </div>
 
 </main>
 </nav>
+
+<script type = "text/javascript">
+
+$(document).ready(function(){
+
+  $("#moreinfo").click(function(){
+    $(this).text($(this).text() == 'Read more' ? 'Read less' : 'Read more');
+    $("#about2").slideToggle("slow");
+});
+
+});
+</script>
