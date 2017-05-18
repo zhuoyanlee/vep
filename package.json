@@ -22,33 +22,5 @@
     "heroku",
     "express"
   ],
-  "license": "MIT",
-  "pancake": {
-    "auto-save": true,
-    "plugins": true,
-    "ignore": [],
-    "css": {
-      "minified": true,
-      "modules": false,
-      "browsers": [
-        "last 2 versions",
-        "ie 8",
-        "ie 9",
-        "ie 10"
-      ],
-      "location": "pancake/css/",
-      "name": "pancake.min.css"
-    },
-    "sass": {
-      "modules": false,
-      "location": "pancake/sass/",
-      "name": "pancake.scss"
-    },
-    "js": {
-      "minified": true,
-      "modules": false,
-      "location": "pancake/js/",
-      "name": "pancake.min.js"
-    }
-  }
+  "license": "MIT"
 }

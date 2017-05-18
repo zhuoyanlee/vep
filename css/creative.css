@@ -48,6 +48,14 @@ p {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+              "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 300;
 }
 
 .logo-banner {
@@ -624,7 +632,7 @@ dd{
 }
 
 .tab-blurb{
-	margin: 2em 2em 2em 2em; 
+	margin: 2em 2em 2em 2em;
 }
 
 .tab-subheader {
@@ -888,7 +896,7 @@ span:hover .hidden-overlay-sm  {
   	width:228px;
 
   }
-  
+
   #sidebar.affix-bottom {
     position: relative;
 
