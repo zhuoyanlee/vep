@@ -21,7 +21,9 @@ app.get('/awards', function(request, response) {
   response.render('pages/awards');
 });
 
-
+app.get('/veterans', function(request, response) {
+  response.render('pages/veterans');
+});
 
 
 app.listen(app.get('port'), function() {
